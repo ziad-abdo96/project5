@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    overflow: hidden;
+   
+ 
+}
+
+body {
+    color: #ededed;
+    background-color: rgb(13, 58, 85);
+    
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content:space-between;
+    width: 100%;
+    position: absolute;
+    right: 19px;
+
+    
+}
+
+.navbar li a {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500px;
+    color:#ffffff;
+    margin-left: 35px;
+    display: inline block;
+    background: transparent;
+    z-index: 1000px;
+    border: #0ef 2px;
+   
+   
+}
+ul:hover {
+    background-color: #0ef;
+    display: none;
+   
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 10vh;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   
+   
+}
+
+/* .home {
+    position: relative;
+    justify-content: space-between;
+    width: 100%;
+    height: 10000vh;
+    background: rgb(2, 26, 46);
+    background-size: cover;
+} */
+.home {
+    position: relative;
+    display: inline block;
+    height: 90vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.home .home-content {
+
+    
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    top: 20%;
+    height: 70%;
+
+}
+
+.text {
+    position: absolute;
+    top: 45%;
+    left: 12px;
+    transition:all 5s;
+  
+}
+
+
+img {
+   position:absolute;
+   top: 0%;
+   border-radius: 50%;
+   height: 200px;
+   width: 200px;
+   right: 80px;
+   box-shadow: 10px 10px 100px 19px;
+}
+ 
+ h3 {
+    font-size: 30px;
+    font-weight:700;
+ }
+ h1 {
+    font-size: 40px;
+    font-weight:700;
+ }
+
+
+
+ /* 
+ -------------------------
+ 3-icons
+ -------------------------
+  */
+  .icon {
+  
+    position: absolute;
+    bottom: 11px;
+    left: 3px;
+    color: #0ef;
+    background-color: transparent;
+     
+    width: 1000px;
+  }
+
+
+  i {
+    color: #0ef;
+    border: #0ef solid 2px;
+    border-radius: 50% ;
+    font-size: 30px;
+    margin: 7px;
+   
+}
+a {
+    text-decoration: none;
+   
+}
+
+.icon i:hover {
+    background: #0ef;
+    color: #081b29;
+    box-shadow:0 0 20px #0ef ;
+}
